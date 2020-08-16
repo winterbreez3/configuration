@@ -1,0 +1,17 @@
+rename supercr00se
+rename supercr00se.jpg
+open_with sxiv
+shell ls
+config.h
+shell make && sudo make clean install
+rename Buildr
+sxiv
+!sxiv
+w
+wq
+find hello
+find a
+find document
+find m
+find title
+

@@ -1,0 +1,41 @@
+! XCONFIGURATION 
+
+Xft.dpi: 150
+URxvt*termName: rxvt-256color
+URxvt.font: xft:Menlo for Powerline:size=9
+URxvt.scrollBar: false
+
+! KEYBINDINGS
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
+
+! COLORS
+!
+! DRACULA
+
+! URxvt*transparent: true
+! URxvt*shading: 0 
+URxvt*background:   [97]#282a36
+URxvt*foreground:   #eff0eb
+URxvt*cursorColor:  #9aedfe
+
+*color0:      #33303b
+*color8:      #4f4b58
+*color1:      #ff5c57
+*color9:      #ff5c57
+*color2:      #5af78e
+*color10:     #5af78e
+*color3:      #f3f99d
+*color11:     #f3f99d
+*color4:      #57c7ff
+*color12:     #57c7ff
+*color5:      #ff6ac1
+*color13:     #ff6ac1
+*color6:      #9aedfe
+*color14:     #9aedfe
+*color7:      #eff0eb
+*color15:     #eff0eb

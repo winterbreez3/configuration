@@ -1,0 +1,690 @@
+2020-08-03 12:05:11,381 ERROR libqtile confreader.py:from_file():L91 Could not import config file '/home/winterbreeze/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/confreader.py", line 87, in from_file
+    config = __import__(os.path.basename(path)[:-3])  # noqa: F811
+  File "/home/winterbreeze/.config/qtile/config.py", line 9
+    ],
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 6
+2020-08-03 12:05:11,381 ERROR libqtile qtile.py:make_qtile():L129 Error while reading config file (Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/confreader.py", line 87, in from_file
+    config = __import__(os.path.basename(path)[:-3])  # noqa: F811
+  File "/home/winterbreeze/.config/qtile/config.py", line 9
+    ],
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 6
+)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/confreader.py", line 87, in from_file
+    config = __import__(os.path.basename(path)[:-3])  # noqa: F811
+  File "/home/winterbreeze/.config/qtile/config.py", line 9
+    ],
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 6
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/scripts/qtile.py", line 127, in make_qtile
+    config = confreader.Config.from_file(kore, options.configfile)
+  File "/usr/lib/python3.8/site-packages/libqtile/confreader.py", line 93, in from_file
+    raise ConfigError(tb)
+libqtile.confreader.ConfigError: Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/confreader.py", line 87, in from_file
+    config = __import__(os.path.basename(path)[:-3])  # noqa: F811
+  File "/home/winterbreeze/.config/qtile/config.py", line 9
+    ],
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 6
+
+2020-08-03 12:05:11,492 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.CPUGraph', No module named 'psutil'
+2020-08-03 12:05:11,493 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.MemoryGraph', No module named 'psutil'
+2020-08-03 12:05:11,494 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.SwapGraph', No module named 'psutil'
+2020-08-03 12:05:11,494 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.NetGraph', No module named 'psutil'
+2020-08-03 12:05:11,495 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDGraph', No module named 'psutil'
+2020-08-03 12:05:11,496 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDBusyGraph', No module named 'psutil'
+2020-08-03 12:05:11,520 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.launchbar.LaunchBar', No module named 'xdg'
+2020-08-03 12:05:11,522 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.mpd2widget.Mpd2', No module named 'mpd'
+2020-08-03 12:05:11,528 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.wlan.Wlan', No module named 'iwlib'
+2020-08-03 12:05:11,529 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.khal_calendar.KhalCalendar', No module named 'dateutil'
+2020-08-03 12:05:11,529 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.imapwidget.ImapWidget', No module named 'keyring'
+2020-08-03 12:05:11,530 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.net.Net', No module named 'psutil'
+2020-08-03 12:05:11,532 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.memory.Memory', No module named 'psutil'
+2020-08-03 12:05:11,532 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.cpu.CPU', No module named 'psutil'
+2020-08-03 12:05:12,669 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:13,262 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:13,581 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:13,749 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:13,899 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:14,317 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:14,486 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:14,613 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:15,517 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:15,686 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:15,838 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:15,995 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:17,977 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:18,146 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:18,293 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:28,651 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65516, 0)
+2020-08-03 12:05:28,845 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:29,213 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:29,343 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:29,494 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:29,805 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:29,966 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:30,085 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:30,723 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65515, 0)
+2020-08-03 12:05:30,862 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:31,061 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:31,315 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65513, 0)
+2020-08-03 12:05:31,467 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65293, 8)
+2020-08-03 12:05:31,635 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65293, 8)
+2020-08-03 12:05:31,779 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65293, 8)
+2020-08-03 12:05:32,171 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65507, 0)
+2020-08-03 12:05:32,339 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65293, 4)
+2020-08-03 12:05:32,507 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65293, 4)
+2020-08-03 12:05:32,659 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65293, 4)
+2020-08-03 12:05:33,267 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65379, 0)
+2020-08-03 12:05:33,426 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65379, 0)
+2020-08-03 12:05:33,579 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65379, 0)
+2020-08-03 12:05:33,723 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65379, 0)
+2020-08-03 12:05:34,211 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65516, 0)
+2020-08-03 12:05:34,318 ERROR libqtile manager.py:cmd_spawn():L1163 failed spawn: "xterm"
+[Errno 2] No such file or directory
+2020-08-03 12:05:34,546 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (99, 0)
+2020-08-03 12:05:34,626 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (108, 0)
+2020-08-03 12:05:34,747 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (101, 0)
+2020-08-03 12:05:34,835 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (114, 0)
+2020-08-03 12:05:34,843 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (97, 0)
+2020-08-03 12:05:34,883 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65293, 0)
+2020-08-03 12:05:34,995 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (101, 0)
+2020-08-03 12:05:35,147 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (120, 0)
+2020-08-03 12:05:35,211 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (105, 0)
+2020-08-03 12:05:35,275 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (116, 0)
+2020-08-03 12:05:35,435 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65293, 0)
+2020-08-03 12:05:35,827 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65516, 0)
+2020-08-03 12:05:36,243 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65506, 64)
+2020-08-03 12:05:36,331 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (113, 65)
+2020-08-03 12:05:36,611 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (113, 65)
+2020-08-03 12:05:36,810 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (113, 65)
+2020-08-03 12:05:37,154 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65307, 65)
+2020-08-03 12:05:37,386 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65307, 64)
+2020-08-03 12:05:37,571 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65307, 64)
+2020-08-03 12:05:38,387 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65516, 0)
+2020-08-03 12:05:39,386 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65515, 0)
+2020-08-03 12:05:40,075 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65507, 0)
+2020-08-03 12:05:40,083 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 246, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 494, in handle_KeyPress
+    self.qtile.process_key_event(keysym, event.state & self._valid_mask)
+  File "/usr/lib/python3.8/site-packages/libqtile/core/manager.py", line 329, in process_key_event
+    key = self.keys_map[(keysym, mask)]
+KeyError: (65513, 4)
+2020-08-03 12:05:51,641 ERROR libqtile confreader.py:from_file():L91 Could not import config file '/home/winterbreeze/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/confreader.py", line 87, in from_file
+    config = __import__(os.path.basename(path)[:-3])  # noqa: F811
+  File "/home/winterbreeze/.config/qtile/config.py", line 9
+    ],
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 6
+2020-08-03 12:05:51,641 ERROR libqtile qtile.py:make_qtile():L129 Error while reading config file (Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/confreader.py", line 87, in from_file
+    config = __import__(os.path.basename(path)[:-3])  # noqa: F811
+  File "/home/winterbreeze/.config/qtile/config.py", line 9
+    ],
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 6
+)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/confreader.py", line 87, in from_file
+    config = __import__(os.path.basename(path)[:-3])  # noqa: F811
+  File "/home/winterbreeze/.config/qtile/config.py", line 9
+    ],
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 6
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/scripts/qtile.py", line 127, in make_qtile
+    config = confreader.Config.from_file(kore, options.configfile)
+  File "/usr/lib/python3.8/site-packages/libqtile/confreader.py", line 93, in from_file
+    raise ConfigError(tb)
+libqtile.confreader.ConfigError: Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/confreader.py", line 87, in from_file
+    config = __import__(os.path.basename(path)[:-3])  # noqa: F811
+  File "/home/winterbreeze/.config/qtile/config.py", line 9
+    ],
+    ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '(' on line 6
+
+2020-08-03 12:05:51,754 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.CPUGraph', No module named 'psutil'
+2020-08-03 12:05:51,756 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.MemoryGraph', No module named 'psutil'
+2020-08-03 12:05:51,756 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.SwapGraph', No module named 'psutil'
+2020-08-03 12:05:51,757 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.NetGraph', No module named 'psutil'
+2020-08-03 12:05:51,758 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDGraph', No module named 'psutil'
+2020-08-03 12:05:51,758 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDBusyGraph', No module named 'psutil'
+2020-08-03 12:05:51,780 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.launchbar.LaunchBar', No module named 'xdg'
+2020-08-03 12:05:51,782 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.mpd2widget.Mpd2', No module named 'mpd'
+2020-08-03 12:05:51,785 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.wlan.Wlan', No module named 'iwlib'
+2020-08-03 12:05:51,786 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.khal_calendar.KhalCalendar', No module named 'dateutil'
+2020-08-03 12:05:51,787 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.imapwidget.ImapWidget', No module named 'keyring'
+2020-08-03 12:05:51,787 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.net.Net', No module named 'psutil'
+2020-08-03 12:05:51,789 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.memory.Memory', No module named 'psutil'
+2020-08-03 12:05:51,790 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.cpu.CPU', No module named 'psutil'
+2020-08-03 12:10:57,213 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.CPUGraph', No module named 'psutil'
+2020-08-03 12:10:57,214 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.MemoryGraph', No module named 'psutil'
+2020-08-03 12:10:57,214 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.SwapGraph', No module named 'psutil'
+2020-08-03 12:10:57,215 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.NetGraph', No module named 'psutil'
+2020-08-03 12:10:57,215 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDGraph', No module named 'psutil'
+2020-08-03 12:10:57,216 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDBusyGraph', No module named 'psutil'
+2020-08-03 12:10:57,239 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.launchbar.LaunchBar', No module named 'xdg'
+2020-08-03 12:10:57,241 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.mpd2widget.Mpd2', No module named 'mpd'
+2020-08-03 12:10:57,244 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.wlan.Wlan', No module named 'iwlib'
+2020-08-03 12:10:57,245 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.khal_calendar.KhalCalendar', No module named 'dateutil'
+2020-08-03 12:10:57,245 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.imapwidget.ImapWidget', No module named 'keyring'
+2020-08-03 12:10:57,246 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.net.Net', No module named 'psutil'
+2020-08-03 12:10:57,248 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.memory.Memory', No module named 'psutil'
+2020-08-03 12:10:57,249 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.cpu.CPU', No module named 'psutil'
+2020-08-03 12:10:57,615 ERROR libqtile hook.py:fire():L373 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/hook.py", line 371, in fire
+    i(*args, **kwargs)
+  File "/home/winterbreeze/.config/qtile/config.py", line 556, in start_once
+    subprocess.call([home + '/.config/qtile/autostart.sh'])
+  File "/usr/lib/python3.8/subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/winterbreeze/.config/qtile/autostart.sh'
+2020-08-03 12:10:57,644 ERROR libqtile base.py:worker():L489 problem polling to update widget pacman
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/base.py", line 485, in worker
+    text = self.poll()
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/pacman.py", line 49, in poll
+    pacman = self.call_process(['checkupdates'])
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/base.py", line 276, in call_process
+    output = subprocess.check_output(command, **kwargs)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'checkupdates'
+2020-08-03 12:11:16,409 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=8388617, prop='WM_STATE'), ignoring
+2020-08-03 12:11:59,710 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=6291465, prop='WM_STATE'), ignoring
+2020-08-03 12:12:08,590 ERROR libqtile manager.py:process_key_event():L340 KB command error grow: No such command
+2020-08-03 12:12:08,779 ERROR libqtile manager.py:process_key_event():L340 KB command error grow: No such command
+2020-08-03 12:12:09,484 ERROR libqtile manager.py:process_key_event():L340 KB command error grow: No such command
+2020-08-03 12:12:11,124 ERROR libqtile manager.py:process_key_event():L340 KB command error grow: No such command
+2020-08-03 12:12:11,468 ERROR libqtile manager.py:process_key_event():L340 KB command error grow: No such command
+2020-08-03 12:12:11,860 ERROR libqtile manager.py:process_key_event():L340 KB command error shrink: No such command
+2020-08-03 12:12:12,124 ERROR libqtile manager.py:process_key_event():L340 KB command error shrink: No such command
+2020-08-03 12:12:12,324 ERROR libqtile manager.py:process_key_event():L340 KB command error shrink: No such command
+2020-08-03 12:12:12,754 ERROR libqtile manager.py:process_key_event():L340 KB command error shrink: No such command
+2020-08-03 12:12:16,872 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=6291465, prop='WM_STATE'), ignoring
+2020-08-03 12:12:17,277 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=8388617, prop='WM_STATE'), ignoring
+2020-08-03 12:12:17,709 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=14680073, prop='WM_STATE'), ignoring
+2020-08-03 12:12:17,992 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=12582921, prop='WM_STATE'), ignoring
+2020-08-03 12:12:53,317 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=8388611, prop='WM_STATE'), ignoring
+2020-08-03 12:13:29,191 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=8388617, prop='WM_STATE'), ignoring
+2020-08-03 12:15:46,808 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=6291465, prop='WM_STATE'), ignoring
+2020-08-03 12:15:47,620 WARNING libqtile manager.py:loop():L245 Restarting Qtile with os.execv(...)
+2020-08-03 12:15:47,930 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.CPUGraph', No module named 'psutil'
+2020-08-03 12:15:47,932 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.MemoryGraph', No module named 'psutil'
+2020-08-03 12:15:47,932 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.SwapGraph', No module named 'psutil'
+2020-08-03 12:15:47,933 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.NetGraph', No module named 'psutil'
+2020-08-03 12:15:47,934 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDGraph', No module named 'psutil'
+2020-08-03 12:15:47,934 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDBusyGraph', No module named 'psutil'
+2020-08-03 12:15:47,956 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.launchbar.LaunchBar', No module named 'xdg'
+2020-08-03 12:15:47,957 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.mpd2widget.Mpd2', No module named 'mpd'
+2020-08-03 12:15:47,960 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.wlan.Wlan', No module named 'iwlib'
+2020-08-03 12:15:47,961 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.khal_calendar.KhalCalendar', No module named 'dateutil'
+2020-08-03 12:15:47,961 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.imapwidget.ImapWidget', No module named 'keyring'
+2020-08-03 12:15:47,962 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.net.Net', No module named 'psutil'
+2020-08-03 12:15:47,964 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.memory.Memory', No module named 'psutil'
+2020-08-03 12:15:47,964 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.cpu.CPU', No module named 'psutil'
+2020-08-03 12:15:48,335 ERROR libqtile base.py:worker():L489 problem polling to update widget pacman
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/base.py", line 485, in worker
+    text = self.poll()
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/pacman.py", line 49, in poll
+    pacman = self.call_process(['checkupdates'])
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/base.py", line 276, in call_process
+    output = subprocess.check_output(command, **kwargs)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'checkupdates'
+2020-08-03 12:15:57,823 ERROR libqtile manager.py:process_key_event():L340 KB command error increase_nmaster: No such command
+2020-08-03 12:15:58,263 ERROR libqtile manager.py:process_key_event():L340 KB command error decrease_nmaster: No such command
+2020-08-03 12:16:06,371 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=12582913, prop='WM_STATE'), ignoring
+2020-08-03 12:16:09,508 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=6291465, prop='WM_STATE'), ignoring
+2020-08-03 12:16:15,255 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=6291465, prop='WM_STATE'), ignoring
+2020-08-03 12:18:14,884 WARNING libqtile manager.py:loop():L245 Restarting Qtile with os.execv(...)
+2020-08-03 12:18:15,198 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.CPUGraph', No module named 'psutil'
+2020-08-03 12:18:15,200 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.MemoryGraph', No module named 'psutil'
+2020-08-03 12:18:15,200 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.SwapGraph', No module named 'psutil'
+2020-08-03 12:18:15,201 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.NetGraph', No module named 'psutil'
+2020-08-03 12:18:15,201 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDGraph', No module named 'psutil'
+2020-08-03 12:18:15,202 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDBusyGraph', No module named 'psutil'
+2020-08-03 12:18:15,223 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.launchbar.LaunchBar', No module named 'xdg'
+2020-08-03 12:18:15,225 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.mpd2widget.Mpd2', No module named 'mpd'
+2020-08-03 12:18:15,228 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.wlan.Wlan', No module named 'iwlib'
+2020-08-03 12:18:15,229 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.khal_calendar.KhalCalendar', No module named 'dateutil'
+2020-08-03 12:18:15,229 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.imapwidget.ImapWidget', No module named 'keyring'
+2020-08-03 12:18:15,230 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.net.Net', No module named 'psutil'
+2020-08-03 12:18:15,231 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.memory.Memory', No module named 'psutil'
+2020-08-03 12:18:15,232 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.cpu.CPU', No module named 'psutil'
+2020-08-03 12:18:15,522 ERROR libqtile base.py:worker():L489 problem polling to update widget pacman
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/base.py", line 485, in worker
+    text = self.poll()
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/pacman.py", line 49, in poll
+    pacman = self.call_process(['checkupdates'])
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/base.py", line 276, in call_process
+    output = subprocess.check_output(command, **kwargs)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'checkupdates'
+2020-08-03 12:18:17,837 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=6291465, prop='WM_STATE'), ignoring
+2020-08-03 12:18:19,790 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=8388617, prop='WM_STATE'), ignoring
+2020-08-03 12:18:56,183 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=33554441, prop='WM_STATE'), ignoring
+2020-08-03 12:18:58,961 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=35651593, prop='WM_STATE'), ignoring
+2020-08-03 12:18:59,377 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=33554441, prop='WM_STATE'), ignoring
+2020-08-03 12:19:25,759 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=6291459, prop='WM_STATE'), ignoring
+2020-08-03 12:19:33,496 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=35651593, prop='WM_STATE'), ignoring
+2020-08-03 12:19:34,768 WARNING libqtile xcbq.py:set_property():L687 X error in SetProperty (wid=33554441, prop='WM_STATE'), ignoring
+2020-08-03 12:19:36,471 WARNING libqtile manager.py:loop():L245 Restarting Qtile with os.execv(...)
+2020-08-03 12:19:36,824 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.CPUGraph', No module named 'psutil'
+2020-08-03 12:19:36,826 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.MemoryGraph', No module named 'psutil'
+2020-08-03 12:19:36,827 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.SwapGraph', No module named 'psutil'
+2020-08-03 12:19:36,827 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.NetGraph', No module named 'psutil'
+2020-08-03 12:19:36,828 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDGraph', No module named 'psutil'
+2020-08-03 12:19:36,829 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.graph.HDDBusyGraph', No module named 'psutil'
+2020-08-03 12:19:36,850 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.launchbar.LaunchBar', No module named 'xdg'
+2020-08-03 12:19:36,851 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.mpd2widget.Mpd2', No module named 'mpd'
+2020-08-03 12:19:36,855 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.wlan.Wlan', No module named 'iwlib'
+2020-08-03 12:19:36,855 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.khal_calendar.KhalCalendar', No module named 'dateutil'
+2020-08-03 12:19:36,856 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.imapwidget.ImapWidget', No module named 'keyring'
+2020-08-03 12:19:36,857 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.net.Net', No module named 'psutil'
+2020-08-03 12:19:36,858 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.memory.Memory', No module named 'psutil'
+2020-08-03 12:19:36,859 WARNING libqtile utils.py:safe_import():L191 Unmet dependencies for optional Widget: '.widget.cpu.CPU', No module named 'psutil'
+2020-08-03 12:19:37,147 ERROR libqtile base.py:worker():L489 problem polling to update widget pacman
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/base.py", line 485, in worker
+    text = self.poll()
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/pacman.py", line 49, in poll
+    pacman = self.call_process(['checkupdates'])
+  File "/usr/lib/python3.8/site-packages/libqtile/widget/base.py", line 276, in call_process
+    output = subprocess.check_output(command, **kwargs)
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'checkupdates'
+2020-08-03 12:19:40,139 ERROR libqtile manager.py:process_key_event():L340 KB command error kill: No object window in path 'window'
+2020-08-03 12:20:01,022 ERROR libqtile xcore.py:_xpoll():L270 Shutting down due to X connection error XCB_CONN_ERROR (1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.8/site-packages/xcffib/__init__.py", line 610, in poll_for_event
+    self.invalid()
+  File "/usr/lib/python3.8/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/libqtile/backend/x11/xcore.py", line 231, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.8/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.8/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.

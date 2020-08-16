@@ -1,0 +1,9 @@
+
+xmonad.hs:14:66: error:
+    • Variable not in scope:
+        docksEventHoo
+          :: Event -> X base-4.14.0.0:Data.Semigroup.Internal.All
+    • Perhaps you meant ‘docksEventHook’ (imported from XMonad.Hooks.ManageDocks)
+   |
+14 |         , handleEventHook    = handleEventHook defaultConfig <+> docksEventHoo
+   |                                                                  ^^^^^^^^^^^^^
